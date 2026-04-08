@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Dăruiește Viață | The Children's Hospital</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body id="body">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav>
+            <div id="navdiv">
+                <a href="index.html" id="navhome">DV: Impact</a>
+                <div id="navcontrols">
+                    <a href="index.html">Home</a>
+                    <a href="content.html">Story</a>
+                    <a href="data.html">Donors</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <main id="main-content">
+            <div class="maindiv">
+                <h1>Contact</h1>
+                <p>
+                    If you have any questions, suggestions or issues with the site, please fill out the form below.
+                </p>
+                <form method="post" action="#" aria-label="Contact form">
+                    <fieldset id="contact-fieldset">
+                        <legend>Your information</legend>
+                        <div>
+                            <label for="name">Name</label>
+                            <input class="textinput" type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input class="textinput" type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input class="textinput" type="tel" id="phone" name="phone">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Subject</legend>
+                        <div>
+                            <label for="btn-question">Question</label>
+                            <input type="radio" id="btn-question" name="subject" value="question" required>
+                        </div>
+                        <div>
+                            <label for="btn-suggestion">Suggestion</label>
+                            <input type="radio" id="btn-suggestion" name="subject" value="suggestion">
+                        </div>
+                        <div>
+                            <label for="btn-problem">Problem</label>
+                            <input type="radio" id="btn-problem" name="subject" value="problem">
+                        </div>
+                        <div>
+                            <label for="btn-other">Other</label>
+                            <input type="radio" id="btn-other" name="subject" value="other">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Content</legend>
+                        <textarea class="textinput" id="message" name="message" aria-describedby="subject-hint" required></textarea>
+                        <p id="subject-hint">Type your message here</p>
+                    </fieldset>
+                    <button type="submit">Send!</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="row">
+                <div>Official page: <a href="https://www.daruiesteviata.ro">https://www.daruiesteviata.ro</a></div>
+                <div>Facebook: <a href="https://www.facebook.com/daruiesteviata.ro/">https://www.facebook.com/daruiesteviata.ro/</a></div>
+                <div>Instagram: <a href="https://www.instagram.com/daruiesteviata">https://www.instagram.com/daruiesteviata</a></div>
+            </div>
+        </footer>
+    </body>
+</html>
