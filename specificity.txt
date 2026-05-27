@@ -1,0 +1,9 @@
+1. Paragraph 1 receives color, font-size, font-family, line-height, padding, from the element selector p {}
+Paragraph 2 receives line-height from element selector p, and color, font-size, font-family, padding, background-color, border-left from class selector .info
+Paragraph 3 receives line-height from element selector p, and color font-size font-style text-transform letter-spacing border padding background-color font-family from id selector #warning
+Paragraph 4 receives line-height from element selector p, text-transform padding font-family from id selector #warning, font-size, font-style, letter-spacing, background-color, color, border from #warning.info
+
+2. The browser uses 'color' from #warning.info because it has a higher priority than the others. The 'font-family' used is the one from #warning, because #warning.info does not specify this property.
+The property order is: #warning.info > #warning > .info > p
+
+3. When only the external CSS stylesheet is preset, it applies all of it's properties to h1. When the h1 selector is add in the internal CSS, it takes priority and overwrites the external CSS's 'color' attribute. The 'font-style' is still applied, because it is not overwritten.

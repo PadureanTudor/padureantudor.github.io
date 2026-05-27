@@ -1,0 +1,65 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #171818;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #8d9091;
+    margin: 5px;
+}
+
+.logo {
+    width: 16px;
+    height: 16px;
+}
+
+a.contact {
+    font-style: normal;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+div#maindiv {
+    display: flex;
+    justify-content: center;
+}
+
+div#card {
+    margin-top: 50px;
+    background-color: #ffffff;
+    align-self: center;
+    box-shadow: rgba(100, 100, 111, 0.1) 0px 7px 29px 0px;
+    border-radius: 25px;
+    width: 50%;
+    padding: 50px;
+}
+
+.flexrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;   
+}
+
+img#image {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    box-shadow: rgba(100, 100, 111, 0.33) 0px 7px 29px 0px;
+}

@@ -1,0 +1,22 @@
+#messages {
+    border: 2px solid rgb(194, 192, 192);
+    min-height: 20em;
+    max-height: 20em;
+    flex: 1;
+    overflow: scroll;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#messages * {
+    margin: 0;
+}
+
+#chatbox {
+    flex: 1;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    padding: 0.5em;
+    margin: 1em;
+}

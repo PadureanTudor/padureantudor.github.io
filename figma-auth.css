@@ -1,0 +1,529 @@
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #E6E6E6;
+
+
+/* Background */
+
+position: absolute;
+width: 917px;
+height: 602px;
+left: 289px;
+top: 211px;
+
+box-shadow: inset 1px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 454px;
+height: 602px;
+left: calc(50% - 454px/2 - 204px);
+top: calc(50% - 602px/2);
+
+background: #FFFFFF;
+border-radius: 50px 0px 0px 50px;
+
+
+/* fundalLOGARE 1 */
+
+position: absolute;
+width: 463px;
+height: 602px;
+left: 743px;
+top: 211px;
+
+background: #0B5F86;
+border-radius: 0px 50px 50px 0px;
+
+
+/* Copyright Text */
+
+position: absolute;
+width: 377px;
+height: 19px;
+left: 541px;
+top: 837px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #054C78;
+
+
+
+/* Login button */
+
+position: absolute;
+width: 349px;
+height: 120px;
+left: 800px;
+top: 617px;
+
+border-radius: 5px;
+
+
+/* Property 1=Default */
+
+position: absolute;
+width: 309px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+background: #FFFFFF;
+
+
+/* Background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: -26.67%;
+bottom: -90%;
+
+background: #154665;
+
+
+/* Text */
+
+position: absolute;
+left: 46.28%;
+right: 41.1%;
+top: 50%;
+bottom: -30%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+
+
+/* Intranet information */
+
+position: absolute;
+width: 299px;
+height: 76px;
+left: 826px;
+top: 493px;
+
+
+
+/* Description */
+
+position: absolute;
+width: 299px;
+height: 76px;
+left: 826px;
+top: 493px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Login form */
+
+position: absolute;
+width: 398px;
+height: 468px;
+left: 332px;
+top: 298px;
+
+
+
+/* Description text */
+
+position: absolute;
+width: 322px;
+height: 38px;
+left: 345px;
+top: 728px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #054C78;
+
+
+
+/* Forgot your password? */
+
+position: absolute;
+width: 180px;
+height: 22px;
+left: 550px;
+top: 598px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #E3AB23;
+
+
+
+/* Checkbox Field */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 169px;
+height: 22px;
+left: 332px;
+top: 598px;
+
+
+
+/* Checkbox and Label */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 169px;
+min-width: 120px;
+height: 22px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Checkbox */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 16px;
+height: 16px;
+
+background: #054C78;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Icon */
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 25%;
+bottom: 29.17%;
+
+border: 1.6px solid #F5F5F5;
+
+
+/* Keep me logged in */
+
+width: 141px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #1E1E1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Authentication */
+
+position: absolute;
+width: 249px;
+height: 44px;
+left: 391px;
+top: 298px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+color: #252E33;
+
+
+
+/* Service: Web Design */
+
+position: absolute;
+width: 156px;
+height: 19px;
+left: 438px;
+top: 342px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Password Field */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 353px;
+height: 57px;
+left: 332px;
+top: 512px;
+
+
+
+/* Password */
+
+width: 353px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #252E33;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+width: 353px;
+min-width: 120px;
+height: 40px;
+
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Email field */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 353px;
+height: 57px;
+left: 332px;
+top: 412px;
+
+
+
+/* Email */
+
+width: 353px;
+height: 22px;
+
+/* Body Base */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+color: #252E33;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Input */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px;
+
+width: 353px;
+min-width: 120px;
+height: 40px;
+
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* tudor.padurean06@e-uvt.ro */
+
+width: 321px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+color: #1E1E1E;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Login button */
+
+position: absolute;
+width: 349px;
+height: 120px;
+left: 340px;
+top: 629px;
+
+border-radius: 5px;
+
+
+/* Property 1=Default */
+
+position: absolute;
+width: 309px;
+height: 30px;
+left: 20px;
+top: 20px;
+
+
+
+/* Background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #E3AB23;
+
+
+/* Text */
+
+position: absolute;
+left: 32.36%;
+right: 31.72%;
+top: 20%;
+bottom: 16.67%;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
