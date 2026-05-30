@@ -196,6 +196,7 @@ section.newscard p {
 
 table {
     width: 100%;
+    max-width: 100%;
 }
 
 table * {
@@ -209,7 +210,7 @@ thead * {
     border-bottom: 1px solid black;
 }
 
-tbody > * > :nth-child(3) {
+.donorTable > * > :nth-child(3) {
     text-align: left;
 }
 
@@ -221,12 +222,22 @@ tbody > :nth-child(even) {
     background: #e0e0e0;
 }   
 
+#dataTable img {
+    max-width: 6em;
+    max-height: 8em;
+}
+
 table .pf {
     background-color: rgba(172, 253, 217, 0.75);
 }
 
 table .pj {
     background-color: rgba(226, 172, 255, 0.75);
+}
+
+td, th {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 fieldset {
@@ -240,6 +251,21 @@ fieldset * {
     margin: 0.25em;
 }
 
+fieldset .textinput:user-invalid {
+    background-color: rgb(253, 226, 226);
+    border: 1px solid rgb(245, 159, 159);
+}
+
+fieldset .textinput:user-invalid + div {
+    visibility: visible;
+}
+
+fieldset .textinput + div {
+    visibility: hidden;
+    min-width:fit-content;
+    color: red;
+}
+
 fieldset .textinput {
     height: 2.5em;
     width: 100%;
@@ -248,6 +274,9 @@ fieldset .textinput {
     background-color: #F6F7F9;
 }
 
+.overflow-x {
+    overflow-x: auto;
+}
 
 button {
     background: #FFA500;

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Dăruiește Viață | The Children's Hospital</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body id="body">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav>
+            <div id="navdiv">
+                <a href="index.html" id="navhome">DV: Impact</a>
+                <div id="navcontrols">
+                    <a href="index.html">Home</a>
+                    <a href="overview.html">Overview</a>
+                    <a href="content.html">Story</a>
+                    <a href="data.html">Donors</a>
+                    <a href="chatbot.html">Chatbot</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+            </div>
+        </nav>
+        <main id="main-content">
+            <div class="maindiv">
+                <h1>Portfolio</h1>
+                <section class="text">
+                    <h2>Add new project</h2>
+                    <p>Use the form below to add a project to your portfolio.</p>
+                    <form novalidate id="add_project" action="post" action="#" aria-label="Add project">
+                        <fieldset>
+                            <legend>General Information</legend>
+                            <label for="input-name">Project name</label>
+                            <div class="row">
+                                <input class="textinput" type="text" id="input-name" name="input-name" required>
+                                <div>Enter a valid name (letters only).</div>
+                            </div>
+                            <label for="input-url">Url</label>
+                            <div class="row">
+                                <input class="textinput" type="url" id="input-url" name="input-url" required>
+                                <div>Enter a valid URL.</div>
+                            </div>
+                            <label for="input-img">Image</label>
+                            <div class="row">
+                                <input type="file" class="textinput" id="input-img" name="input-img" required>
+                                <div>Upload a .png image.</div>
+                            </div>
+                            <label for="input-date">Completion date:</label>
+                            <div class="row">
+                                <input class="textinput" type="date" id="input-date" name="input-date" required>
+                                <div>Enter a past date.</div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Details</legend>
+                            <label for="input-description">Description</label>
+                            <div class="row">
+                                <textarea class="textinput" id="input-description" name="input-description" required></textarea>
+                                <div>Enter at least 50 characters.</div>
+                            </div>
+                            <label for="input-technologies">Technologies used</label>
+                            <div class="row">
+                                <textarea class="textinput" id="input-technologies" name="input-technologies" required></textarea>
+                                <div>Enter at least 50 characters.</div>
+                            </div>
+                        </fieldset>
+                        <button type="submit">Add</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                </section>
+                <section class="text">
+                    <h2>Existing projects</h2>
+                    <div class="overflow-x">
+                        <table>
+                            <thead>        
+                                <th scope="col">Project name</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Project URL</th>
+                                <th scope="col">Technologies Used</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Date of Completion</th>
+                            </thead>
+                            <tbody id="dataTable">
+                                <!-- Filled in from js side -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="row">
+                <div>Official page: <a href="https://www.daruiesteviata.ro">https://www.daruiesteviata.ro</a></div>
+                <div>Facebook: <a href="https://www.facebook.com/daruiesteviata.ro/">https://www.facebook.com/daruiesteviata.ro/</a></div>
+                <div>Instagram: <a href="https://www.instagram.com/daruiesteviata">https://www.instagram.com/daruiesteviata</a></div>
+            </div>
+        </footer>
+        <script src="portfolio.js"></script>
+    </body>
+</html>
