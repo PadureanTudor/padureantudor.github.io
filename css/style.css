@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
 * {
     font-family: "Inter", sans-serif;
 }
@@ -15,6 +21,16 @@ p {
     margin-left: 1em;
     margin-right: 1em;
     font-size: 16px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1.0;
+    }
 }
 
 .skip-link {
@@ -39,6 +55,7 @@ p {
     background-color: #F6F7F9;
     margin: 0;
 }
+
 
 #navdiv {
     background: #FFA500;
@@ -79,17 +96,22 @@ p {
 
 .maindiv {
     background-color: #fff;
-    width: 75%;
+    width: min(95%, 1200px);
+    max-width: 1200px;
     padding: 50px;
-    margin-bottom: 2em;
+    margin: 0 auto 2em;
     border-left: 1px solid #ECEDEE;
     border-right: 1px solid #ECEDEE;
     border-bottom: 1px solid #ECEDEE;
 }
 
+section.animate {
+    animation: fadeIn 0.8s ease forwards;
+}
 
 section {
-    margin-top: 5em;
+    margin-top: 5em;    
+    opacity: 0;
 }
 
 section.card {
@@ -128,6 +150,7 @@ footer > .row > * a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .column {
@@ -141,6 +164,11 @@ footer > .row > * a {
 .redirect {
     font-weight: bold;
     color:black;
+    transition: color 0.2s ease;
+}
+
+.redirect:hover {
+    color: #3186d2;
 }
 
 .redirect-button {
@@ -158,7 +186,11 @@ footer > .row > * a {
 }
 
 .redirect-button:hover {
-    transform: scale(1.1, 1.1);
+    background: #feb733;
+}
+
+.redirect-button:active {
+    transform: scale(0.9, 0.9);
 }
 
 .newscard {
@@ -227,6 +259,13 @@ tbody > :nth-child(even) {
     max-height: 8em;
 }
 
+#add_project .textinput {
+    max-width: 60%;
+}
+
+#add_project .row {
+    justify-content: space-between;
+}
 table .pf {
     background-color: rgba(172, 253, 217, 0.75);
 }
@@ -235,7 +274,7 @@ table .pj {
     background-color: rgba(226, 172, 255, 0.75);
 }
 
-td, th {
+.breakword {
   overflow-wrap: break-word;
   word-break: break-word;
 }
@@ -327,3 +366,14 @@ img.aside {
     }
 }
 
+button {
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    background: #feb733;
+}
+
+button:active {
+    transform: scale(0.9, 0.9);
+}

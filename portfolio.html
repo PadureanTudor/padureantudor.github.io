@@ -32,7 +32,7 @@
                 <section class="text">
                     <h2>Add new project</h2>
                     <p>Use the form below to add a project to your portfolio.</p>
-                    <form novalidate id="add_project" action="post" action="#" aria-label="Add project">
+                    <form novalidate id="add_project" action="#" aria-label="Add project">
                         <fieldset>
                             <legend>General Information</legend>
                             <label for="input-name">Project name</label>
@@ -77,13 +77,15 @@
                     <h2>Existing projects</h2>
                     <div class="overflow-x">
                         <table>
-                            <thead>        
-                                <th scope="col">Project name</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Project URL</th>
-                                <th scope="col">Technologies Used</th>
-                                <th scope="col">Image</th>
-                                <th scope="col">Date of Completion</th>
+                            <thead>   
+                                <tr>     
+                                    <th scope="col">Project name</th>
+                                    <th scope="col">Description</th>
+                                    <th scope="col">Project URL</th>
+                                    <th scope="col">Technologies Used</th>
+                                    <th scope="col">Image</th>
+                                    <th scope="col">Date of Completion</th>
+                                </tr>
                             </thead>
                             <tbody id="dataTable">
                                 <!-- Filled in from js side -->
@@ -101,5 +103,6 @@
             </div>
         </footer>
         <script src="portfolio.js"></script>
+    <script src="animation.js"></script>
     </body>
 </html>

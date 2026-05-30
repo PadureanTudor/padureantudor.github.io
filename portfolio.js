@@ -69,6 +69,7 @@ function actualizareTabel() {
     
     const descNode = document.createElement("td");
     descNode.textContent = description.value;
+    descNode.className = "breakword";
     row.append(descNode);
 
     const urlNode = document.createElement("td");
@@ -77,6 +78,7 @@ function actualizareTabel() {
 
     const techNode = document.createElement("td");
     techNode.textContent = technologies.value;
+    techNode.className = "breakword";
     row.append(techNode);
 
     const imageNode = document.createElement("td");
