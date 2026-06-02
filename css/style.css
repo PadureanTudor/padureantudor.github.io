@@ -172,7 +172,7 @@ footer > .row > * a {
 }
 
 .redirect-button {
-    background: #FFA500;
+    background: #972F0C;
     box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 10%);
     width: max-content;
     padding: 0.5em;
@@ -186,7 +186,7 @@ footer > .row > * a {
 }
 
 .redirect-button:hover {
-    background: #feb733;
+    background: #b92e00;
 }
 
 .redirect-button:active {
@@ -318,7 +318,7 @@ fieldset .textinput {
 }
 
 button {
-    background: #FFA500;
+    background: #972F0C;
     box-shadow: 0px 0px 10px 1px rgb(0, 0, 0, 10%);
     border: none;
     font-weight: bold;
@@ -371,7 +371,7 @@ button {
 }
 
 button:hover {
-    background: #feb733;
+    background: #b82f01;
 }
 
 button:active {
